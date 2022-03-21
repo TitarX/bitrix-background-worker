@@ -1,0 +1,49 @@
+#bgworker-container .button-bgworker {
+    display: inline-block;
+}
+
+#bgworker-container fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+#bgworker-container legend {
+    width: auto;
+    margin-bottom: auto;
+    border-bottom: none;
+}
+
+#bgworker-container form[name='bgworker-start-form'] {
+    display: flex;
+}
+
+#bgworker-container input[type='text'],
+#bgworker-container input[type='number'] {
+    margin-right: 10px;
+}
+
+#bgworker-container input[type='number'] {
+    flex-basis: 100%;
+}
+
+#bgworker-container .button-bgworker-stop {
+    width: auto;
+    margin-top: 4px;
+}
+
+#bgworker-container h3 {
+    margin: 10px 0 0;
+}
+
+#bgworker-container .info {
+    color: #28a745;
+}
+
+#bgworker-container .warning {
+    color: #ffc107;
+}
+
+#bgworker-container .error {
+    color: #dc3545;
+}
