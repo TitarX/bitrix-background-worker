@@ -28,9 +28,7 @@ use Dev\PerfCode\BgWorker\WorkerHelper;
 
 Asset::getInstance()->addCss(MiscHelper::getAppDirRelativePath() . '/css/bgworker.css');
 Asset::getInstance()->addJs(MiscHelper::getAppDirRelativePath() . '/js/bgworker.js');
-?>
 
-<?php
 global $USER;
 if (!$USER->IsAdmin()) {
     LocalRedirect('/');
